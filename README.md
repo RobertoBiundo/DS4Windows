@@ -73,6 +73,16 @@ use DS4Windows properly, you have to open Steam Big Picture Mode, navigate to
 Settings > Controller> Controller Settings and uncheck **Xbox Configuration
 Support** along with **PlayStation Configuration Support**.
 
+## Could not open DS4 exclusively
+
+Some games may detect the DS4 controller directly causing problems for some of them
+since DS4Windows is also active. To avoid this use the Hide DS4 Controller setting.
+If you are using a nVidia video card and have the GeForce Experience installed this 
+will cause the mssage "Could not open DS4 exclusively" to show up in the logs. This
+means that DS4Windows was not able to properly hide the DS4 controller.
+To solve this open the nVidia Geforce Experice app, go to Settings > General and 
+disable the in-game overlay. 
+
 ## Personal Game Testing
 
 My PC game library is not that expansive so there are likely games
